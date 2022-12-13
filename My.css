@@ -1,0 +1,170 @@
+h1 {
+  font-family: Arial, sans-serif; color:blue; text-align:center;}
+h2 {
+  font-family: Arial, sans-serif; color:green;}
+p {font-size: 20px;}
+li {font-size: 20px;}
+
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  height: auto;
+  border: 2px solid black;
+}
+header {
+  display:block;
+  width:100%;
+  border: 2px solid;
+  border-color: blue;
+  margin:2px;
+  border-radius: 10px;
+ }
+footer {
+  display:block;
+/*position:fixed;
+  bottom:0;*/
+  border: 2px solid;
+  border-color: blue;
+  border-radius: 10px;
+  clear:both;
+  text-align:center;
+  width:100%;
+  opacity: 1.0;
+  background: #fc0;
+  margin:2px;
+}
+
+ul {
+text-align:left;
+  font-family: Arial, sans-serif;
+padding:3px;
+font-size: 30px;
+}
+ul.menu {
+text-align:center;}
+li.menu {
+display: inline;
+text-align:center;
+border:2px solid;
+border-color: blue;
+padding: 10px;
+background-color:blue;
+}
+
+
+nav {
+  display:block;
+  border: 2px solid;
+  border-color: blue;
+  border-radius: 10px;
+  padding:2px;
+  width:100%;
+  margin:2px;
+}
+a.menu { 
+    text-decoration: none; color:yellow;
+   }
+
+a.menu_ {
+  color:yellow;
+}
+
+p.mystyle {font-size: 30px; color: black; background-color:white;}
+p.feedback {font-size:large; color: black; background-color:white; text-align:left;}
+
+/*article.e {
+width:auto; 
+height:50%; 
+overflow:scroll;
+}*/
+
+article {
+display:block;
+float:left;
+border:2px solid green;
+border-radius: 10px;
+padding: 10px;
+width:55%;
+height:auto;
+margin:2px;
+/*overflow:scroll;*/
+}
+
+#test { 
+color:red;}
+
+aside {
+
+display:block;
+/*position: relative;*/
+float:right;
+width:40%;
+height:auto;
+border:2px solid green;
+border-radius: 10px;
+padding: 10px;
+margin:2px;
+
+ }
+
+div {
+border:2px solid green;
+border-radius: 10px;
+padding: 10px;
+margin:2px;
+          }
+.box {
+display: flex;
+          }
+
+
+@media screen and (max-width:480px) {
+h1 {
+color:red;
+padding:5px;}
+li.menu {
+display: block;
+text-align:center;
+border:2px solid;
+border-color: blue;
+padding: 2px;
+margin:2px;
+background-color:blue;
+}
+
+article {
+display:block;
+border:2px solid green;
+padding: 10px;
+margin:10px;
+width:auto;
+max-height:50%;
+}
+#test { 
+color:red;}
+
+aside {
+
+display:block;
+/*position: relative;*/
+/*float:right;*/
+width:auto;
+height:auto;
+border:2px solid green;
+padding: 10px;
+margin:2px;
+
+ }
+
+.box {
+display: flex;
+flex-direction: column;         
+}
+
+
+}
+
+
+
