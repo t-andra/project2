@@ -2,5 +2,4 @@ Sitemap: https://artemoff.ru/sitemap.txt
 Sitemap: https://www.artemoff.ru/sitemap.txt
 User-agent: *
 Allow:/
-Disallow: /Belev.html
-Disallow: /login.html
+Disallow: /program

@@ -10,7 +10,7 @@ session_start();
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="shortcut icon" href="favicon.png" type="image/png">
+<link rel="shortcut icon" href="../favicon.png" type="image/png">
 </head>
 
 <?php
@@ -53,7 +53,7 @@ echo "<br/>";
 
 echo $row_[0]-$row[0];
 
-mysqli_close($conn);
+mysqli_close($mysqli);
 
 ?>
 

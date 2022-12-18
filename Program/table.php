@@ -3,7 +3,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="shortcut icon" href="favicon.png" type="image/png">
+<link rel="shortcut icon" href="../favicon.png" type="image/png">
 </head>
 
 <?php

@@ -8,6 +8,8 @@ $routes=[
 '/projects'=>'controllers/projects.php',
 '/partnership'=>'controllers/partnership.php',
 '/feedback'=>'controllers/feedback.php',
+    '/program'=>'controllers/program.php',
+    '/login'=>'controllers/login.php',
 ];
 
 function routeToController($uri, $routes) {

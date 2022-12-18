@@ -7,5 +7,6 @@
         <li class= "menu" > <a class= <?= urlIs('/projects') ? 'menu_' : 'menu' ?>  href="/projects"> Проекты  </a> </li>
         <li class= "menu" > <a class= <?= urlIs('/partnership') ? 'menu_' : 'menu' ?> href="/partnership"> Партнерство  </a> </li>
         <li class= "menu" > <a class= <?= urlIs('/feedback') ? 'menu_' : 'menu' ?> href="/feedback"> Обратная связь  </a> </li>
+        <li class= "menu" > <a class= <?= urlIs('/program') ? 'menu_' : 'menu' ?> href="/program"> Вход  </a> </li>
     </ul>
 </nav>

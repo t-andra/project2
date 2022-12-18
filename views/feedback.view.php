@@ -3,7 +3,7 @@
 
 <h1>
     Форма обратной связи
-    </h>
+    </h1>
 
     <p class="feedback">
 
@@ -12,7 +12,7 @@
 
     </p>
 
-    <form action="/first.php" method="post">
+    <form action="/feedback.php" method="post">
         <p> Имя: <input type="text" name="name"/></p>
         <p> Сообщение: <textarea name="info" rows="10" cols="45"> </textarea> </p>
         <p> Электронная почта : <input type="email" name="email"/></p>
