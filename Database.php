@@ -6,9 +6,9 @@ class Database
 
     public function __construct()
     {
-        $dsn = "mysql:host=localhost;port=3306;dbname=testDB;user=t-andra;password=Belev1;charset=utf8mb4";
+        $dsn = "mysql:host=localhost;port=3306;dbname=testDB;charset=utf8mb4";
 
-        $this->connection = new PDO($dsn);
+        $this->connection = new PDO($dsn, 't-andra', $_SESSION['pass']);
     }
 
     public function query($query)
