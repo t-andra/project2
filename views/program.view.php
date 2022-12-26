@@ -10,7 +10,7 @@
 
         <h1> Расход </h1>
 
-        <form action='/Program/create.php' method="post">
+        <form action='/program/create' method="post">
             <p> Дата
                 <input type="date" name="date"/>
             </p>
@@ -36,7 +36,7 @@
 
         <h1> Начисление </h1>
 
-        <form action='/Program/accrual.php' method="post">
+        <form action='/program/accrual.php' method="post">
             <p> Дата
                 <input type="date" name="date_" /></p>
             <p> Код
@@ -61,7 +61,7 @@
 
     <div>
         <h1> Сводка </h1>
-        <form action='/Program/summ2.php' method="post">
+        <form action='/program/summ2.php' method="post">
             <p> Код
                 <br>
                 <input type="radio" name="person1" value="1" />1<br>
@@ -78,7 +78,7 @@
 
 <div>
     <h1> Таблица </h1>
-    <form action='/Program/table.php' method="post">
+    <form action='/program/table.php' method="post">
         <p> Код
             <br>
             <input type="radio" name="person2" value="1" />1<br>

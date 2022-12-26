@@ -3,6 +3,15 @@
 require 'functions.php';
 
 require 'router.php';
+/*
+require 'Owner.php';
+
+$person1=new Owner();
+
+$person1->person=1;
+
+echo $person1->accrual()."\n";
+echo $person1->payment()."\n";
 
 /*require 'Database.php';
 

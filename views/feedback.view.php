@@ -12,11 +12,11 @@
 
     </p>
 
-    <form action="/feedback.php" method="post">
-        <p> Имя: <input type="text" name="name"/></p>
-        <p> Сообщение: <textarea name="info" rows="10" cols="45"> </textarea> </p>
-        <p> Электронная почта : <input type="email" name="email"/></p>
-        <p> Телефон : <input type="tel" name="tel"/></p>
+    <form action="/mail" method="post">
+        <p> Имя: <input type="text" required name="name" /></p>
+        <p> Сообщение: <textarea name="info" rows="10" cols="45" required> </textarea> </p>
+        <p> Электронная почта : <input type="email" required name="email" /></p>
+        <p> Телефон : <input type="tel" required name="tel" /></p>
         <p><input type="submit" name="submit" value="Отправить"/></p>
     </form>
 

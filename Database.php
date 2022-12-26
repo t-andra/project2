@@ -19,4 +19,8 @@ class Database
 
         return $statement;
     }
+
+    public function errorCode()
+    {
+    }
 }
